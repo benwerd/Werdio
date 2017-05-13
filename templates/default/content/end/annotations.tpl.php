@@ -7,7 +7,6 @@
              'mention' => 'mentions'] as $annotationType => $templateName) {
 
         if ($annotations = $vars['object']->getAnnotations($annotationType)) {
-
             foreach($annotations as $key => $annotation) {
                 if (
                     !\Idno\Core\Idno::site()->session()->isLoggedIn() &&
