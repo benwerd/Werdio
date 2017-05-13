@@ -10,8 +10,9 @@
 
             foreach($annotations as $key => $annotation) {
                 if (
-                    substr_count($annotation['permalink'], \Idno\Core\Idno::site()->config()->getDisplayURL()) ||
-                    substr_count($annotation['permalink'], 'brid-gy.appspot.com')
+                    !\Idno\Core\Idno::site()->session()->isLoggedIn() &&
+                        (substr_count($annotation['permalink'], \Idno\Core\Idno::site()->config()->getDisplayURL()) ||
+                        substr_count($annotation['permalink'], 'brid-gy.appspot.com'))
                     ) {
                     unset($annotations[$key]);
                 }
