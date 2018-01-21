@@ -10,7 +10,11 @@
             foreach($annotations as $key => $annotation) {
                 if (
                     !\Idno\Core\Idno::site()->session()->isLoggedIn() &&
-                        (substr_count($annotation['permalink'], \Idno\Core\Idno::site()->config()->getDisplayURL()) ||
+                        ((
+                            substr_count($annotation['permalink'], \Idno\Core\Idno::site()->config()->host) &&
+                            substr_count($annotation['permalink'], 'annotation') &&
+                            $annotation['time'] < 1516557318 // Comments from the time of this change are allowed
+                        ) ||
                         substr_count($annotation['permalink'], 'brid-gy.appspot.com'))
                     ) {
                     unset($annotations[$key]);
