@@ -8,6 +8,7 @@
 
         function registerContentTypes() {
             \Idno\Core\Idno::site()->template()->extendTemplate('content/extra', 'werdio/content/extra');
+            \Idno\Core\Idno::site()->template()->extendTemplate('entity/annotations/comment/main', 'werdio/entity/Entry', false);
         }
 
     }
