@@ -46,3 +46,6 @@
 </script>
 <!-- End Matomo Code -->
 
+<!-- Cactus comments -->
+<script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
+<link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
