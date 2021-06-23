@@ -30,22 +30,6 @@
 <script async data-uid="94c6858b99" src="https://artisanal-artisan-3527.ck.page/94c6858b99/index.js"></script>
 <meta name="monetization" content="$ilp.uphold.com/7yhraRBZn2GY">
 
-<!-- Matomo -->
-<script type="text/javascript">
-  var _paq = window._paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="https://werd.matomo.cloud/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '1']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.src='//cdn.matomo.cloud/werd.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Matomo Code -->
-
 <!-- Cactus comments -->
 <script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
 <link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
