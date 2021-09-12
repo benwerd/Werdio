@@ -27,7 +27,6 @@
 }
 
 ?>
-<script async data-uid="94c6858b99" src="https://artisanal-artisan-3527.ck.page/94c6858b99/index.js"></script>
 <meta name="monetization" content="$ilp.uphold.com/7yhraRBZn2GY">
 
 <!-- Cactus comments -->
