@@ -32,3 +32,14 @@
 <!-- Cactus comments -->
 <script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
 <link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
+
+<!-- Experimenting with analytics again -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DTVWEX21QH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DTVWEX21QH');
+</script>
