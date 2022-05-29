@@ -29,10 +29,6 @@
 ?>
 <meta name="monetization" content="$ilp.uphold.com/7yhraRBZn2GY">
 
-<!-- Cactus comments -->
-<script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
-<link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
-
 <!-- Experimenting with analytics again -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-DTVWEX21QH"></script>

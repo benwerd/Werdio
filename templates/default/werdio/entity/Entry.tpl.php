@@ -18,14 +18,5 @@ if (\Idno\Core\Idno::site()->currentPage()->isPermalink()) {
           </div>
       </div>
 
-<script>
-initComments({
-  node: document.getElementById("comment-section"),
-  defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
-  serverName: "cactus.chat",
-  siteName: "werd.io",
-  commentSectionId: "<?=$vars['object']->_id?>"
-})
-</script>
     <?php
 }
