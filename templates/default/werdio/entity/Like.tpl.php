@@ -43,9 +43,12 @@ if (!empty($vars['object']->pageTitle)) {
         if (!empty($vars['object']->description)) {
             echo $this->__(['value' => $vars['object']->description, 'object' => $vars['object']])->draw('forms/output/richtext');
         }
-
+if (empty($vars['feed_view'])) {
 ?>
             <p>[<a href="<?php echo $vars['object']->body; ?>">Link</a>]</p>
+<?php
+}
+?>
         </div>
 <?php
 
