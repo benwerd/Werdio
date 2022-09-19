@@ -27,15 +27,11 @@
 }
 
 ?>
-<meta name="monetization" content="$ilp.uphold.com/7yhraRBZn2GY">
 
-<!-- Experimenting with analytics again -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DTVWEX21QH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-DTVWEX21QH');
+<!-- Experimenting with comments via Hypothesis -->
+<script type="application/json" class="js-hypothesis-config">
+  {
+    "theme": "clean"
+  }
 </script>
+<script async src="https://hypothes.is/embed.js"></script>
