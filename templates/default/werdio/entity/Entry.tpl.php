@@ -19,8 +19,9 @@ if (\Idno\Core\Idno::site()->currentPage()->isPermalink()) {
                 </div>
             </form>
             <p style="margin-top: 21px">
-		        <a href="https://twitter.com/benwerd">Follow me on Twitter.</a><br><br>
-                  You can always email me at <a href="mailto:ben@benwerd.com">ben@benwerd.com</a>.
+		        <a href="https://twitter.com/benwerd">Follow me on Twitter</a> | 
+                <a href="mailto:ben@werd.io">Email me</a> at ben@werd.io |
+                <a href="/feed">RSS feed</a>
               </p>
           </div>
       </div>
