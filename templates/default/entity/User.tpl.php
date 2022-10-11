@@ -4,7 +4,7 @@
         <div class="">
             <div class="namebadge">
                 <p>
-                    <a href="<?php echo $vars['user']->getDisplayURL() ?>" class="u-url icon-container"><img class="u-photo"
+                    <a href="<?php echo $vars['user']->getDisplayURL() ?>" class="u-url icon-container"><img class="u-photo" alt="<?php echo htmlspecialchars($vars['user']->getTitle()); ?>"
                                                                                                src="<?php echo $vars['user']->getIcon() ?>"/></a>
                 </p>
             </div>
