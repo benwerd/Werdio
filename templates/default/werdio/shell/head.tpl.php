@@ -1,5 +1,13 @@
 <?php
 
+    if (\Idno\Core\Idno::site()->currentPage()->isPermalink() && !empty($vars['object'])) {
+?>
+
+<link rel="canonical" href="<?php echo $vars['object']->getDisplayURL() ?>" />
+
+<?php
+    }
+
     if (parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) == '/2019/testing-the-unlock-paywall--protocolcom') {
 
     ?>
