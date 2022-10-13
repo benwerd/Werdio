@@ -43,3 +43,6 @@
   }
 </script>
 <script async src="https://hypothes.is/embed.js"></script>
+
+<meta name="flattr:id" content="7y55gl">
+
