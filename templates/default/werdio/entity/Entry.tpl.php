@@ -18,10 +18,6 @@ if (\Idno\Core\Idno::site()->currentPage()->isPermalink()) {
                     <input type="button" class="btn btn-primary" value="Subscribe" style="padding: 10px; margin: 0; margin-top: -2px; font-size: 1em; width: 20%; min-width: 100px" />
                 </div>
             </form>
-            <p style="margin-top: 21px;">
-		        <div style="display: inline-block"><a href="https://twitter.com/benwerd">Follow me on Twitter</a> <span style="padding-left: 15px; padding-right: 15px">|</span></div>
-                <div style="display: inline-block"><a href="mailto:ben@werd.io">Email me</a> at ben@werd.io</div>
-              </p>
           </div>
       </div>
 
