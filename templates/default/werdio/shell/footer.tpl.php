@@ -13,7 +13,7 @@
 				<a href="https://newsletter.werd.io">Subscribe by email</a>
 			</p>
 			<p>
-				<a href="/pages/feedback">Leave me feedback</a>
+				<a href="/pages/feedback">Leave feedback</a>
 			</p>
 			<p>
 				<a href="/archive">Blog archive</a>
