@@ -7,16 +7,19 @@
 			<p>
 				Twitter: <a href="https://twitter.com/benwerd">@benwerd</a>
 			</p>
+			<p>
+				<a href="/pages/feedback">Leave anonymous feedback</a>
+			</p>
 		</div>
 		<div class="col-md-2 " style="padding: 1.5em">
 			<p>
 				<a href="https://newsletter.werd.io">Subscribe by email</a>
 			</p>
 			<p>
-				<a href="/pages/feedback">Leave feedback</a>
+				<a href="/archive">Blog archive</a>
 			</p>
 			<p>
-				<a href="/archive">Blog archive</a>
+				<a href="https://sources.werd.io/">Sources</a>
 			</p>
 		</div>
 		<div class="col-md-4 " style="padding: 1.5em; text-align: right">
