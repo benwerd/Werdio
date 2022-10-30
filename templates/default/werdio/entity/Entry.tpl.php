@@ -4,20 +4,10 @@ if (\Idno\Core\Idno::site()->currentPage()->isPermalink()) {
 
     ?>
       <div class="row annotation-add">
-          <div class="col-md-12 idno-comment-container" id="comment-form" style="margin-bottom: 25px">
-          <form
-            action="https://buttondown.email/api/emails/embed-subscribe/benwerd"
-            method="post"
-            target="popupwindow"
-            onsubmit="window.open('https://newsletter.werd.io', 'popupwindow')"
-            class="embeddable-buttondown-form"
-            style="font-size: 1.2em; line-height: 1.8em"
-            >
-                <div style="margin: auto; text-decoration: center">
-                    <input type="email" name="email" id="bd-email" placeholder="To subscribe, enter your email address" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400; padding: 10px; margin: 0; width: 70%; min-width: 300px" />
-                    <input type="button" class="btn btn-primary" value="Subscribe" style="padding: 10px; margin: 0; margin-top: -2px; font-size: 1em; width: 20%; min-width: 100px" />
-                </div>
-            </form>
+          <div class="col-md-12 idno-comment-container" id="comment-form" >
+            <div style="margin: auto; margin-bottom: 25px;">
+              <iframe src="https://werd.substack.com/embed" width="100%" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+            </div>
           </div>
       </div>
 
