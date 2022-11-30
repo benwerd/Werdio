@@ -11,7 +11,7 @@ if (\Idno\Core\Idno::site()->currentPage()->isPermalink()) {
 	  policy in the US.
 	</p>
 	<p>
-	  If you have the means, <a href="https://the19th.donorsupport.co/-/NVXBQRUH?2">please donate to The 19th today</a>.
+	  If you have the means, <strong><a href="https://the19th.donorsupport.co/-/NVXBQRUH?2" style="font-weight: 800">please donate to The 19th today</a></strong>.
 	</p>
       </div>
       <div class="row annotation-add">
