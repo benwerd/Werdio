@@ -5,7 +5,7 @@
 				<a href="mailto:ben@werd.io">Email</a>: ben@werd.io
 			</p>
 			<p>
-				Twitter: <a href="https://twitter.com/benwerd">@benwerd</a>
+				Mastodon: <a href="https://werd.social/ben" rel="me">@ben@werd.social</a>
 			</p>
 			<p>
 				<a href="/pages/feedback">Leave anonymous feedback</a>
