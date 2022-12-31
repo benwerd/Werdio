@@ -36,14 +36,6 @@
 
 ?>
 
-<!-- Experimenting with comments via Hypothesis -->
-<script type="application/json" class="js-hypothesis-config">
-  {
-    "theme": "clean"
-  }
-</script>
-<script async src="https://hypothes.is/embed.js"></script>
-
 <meta name="flattr:id" content="7y55gl">
 
 <!-- Matomo -->
@@ -65,4 +57,3 @@
 <!-- Granary Atom -->
 <link rel="alternate" type="application/atom+xml"
       href="https://granary.io/url?url=https://werd.io/content/all/&input=html&output=atom&hub=https://bridgy-fed.superfeedr.com/" />
-
