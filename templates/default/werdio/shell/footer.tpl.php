@@ -21,6 +21,9 @@
 			<p>
 				<a href="https://sources.werd.io/">Sources</a>
 			</p>
+			<p>
+				<a href="https://www.etsy.com/shop/WerdStore">WerdStore</a>
+			</p>
 		</div>
 		<div class="col-md-4 " style="padding: 1.5em; text-align: right">
 			<p>
