@@ -38,10 +38,10 @@
 
 <meta name="flattr:id" content="7y55gl">
 
+<?php /*
 <!-- Matomo -->
 <script>
   var _paq = window._paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
@@ -53,6 +53,9 @@
   })();
 </script>
 <!-- End Matomo Code -->
+*/ ?>
+
+<script defer data-domain="werd.io" src="https://plausible.io/js/script.js"></script>
 
 <!-- Granary Atom -->
 <link rel="alternate" type="application/atom+xml"
