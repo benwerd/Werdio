@@ -11,7 +11,7 @@
             </button>
             <a class="navbar-brand" tabindex="1" href="<?php echo \Idno\Core\Idno::site()->config()->getDisplayURL() ?>"
                 style="font-family: Helvetica, Arial, sans-serif; font-weight: 400;">
-                Ben Werdmuller
+                <strong>Werd</strong> I/O
             </a>
         </div>
 
@@ -41,7 +41,7 @@
                     <a href="/pages/about">About</a>
                 </li>
                 <li>
-                    <a href="https://newsletter.werd.io" class="btn btn-primary" style="background-color: #4c93cb; color: #fff">Subscribe by Email</a>
+                    <a href="https://newsletter.werd.io" class="btn btn-primary" style="background-color: #4c93cb; color: #fff; font-weight: bold">Subscribe</a>
                 </li>
             </ul>
 

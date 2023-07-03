@@ -1,0 +1,58 @@
+.navbar {
+  box-shadow: none;
+}
+
+#banner {
+  width: 100%;
+  background-color: #000;
+  margin-top: -50px;
+  padding: 25px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+#banner h1 {
+  font-size: 42px;
+}
+
+#banner a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#banner p {
+  font-size: 1.3em;
+}
+
+#banner p a {
+  font-weight: bold;
+}
+
+#banner .site-description {
+  margin-bottom: 2em;
+}
+
+#banner .elsewhere {
+  font-size: 0.8em;
+}
+
+@media screen and (min-width: 760px) {
+  #banner-container {
+    max-width: 760px;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr 3fr;
+  }  
+}
+
+@media screen and (max-width: 759px) {
+  #banner-container {
+    text-align: center;
+  }
+
+  img.u-photo {
+    max-width: 200px;
+  }
+}
