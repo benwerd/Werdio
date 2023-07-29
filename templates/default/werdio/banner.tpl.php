@@ -30,6 +30,7 @@
             <p>
               Follow me elsewhere:
               <a href="https://werd.social/@ben" rel="me" class="u-url">Mastodon</a>, 
+              <a href="https://www.threads.net/@ben.werdmuller" rel="me" class="u-url">Threads</a>, 
               <a href="https://www.linkedin.com/in/benwerd" rel="me" class="u-url">LinkedIn</a>
             </p>
           </div>
