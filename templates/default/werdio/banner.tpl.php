@@ -10,7 +10,7 @@
           <div class="namebadge">
             <p>
               <a href="https://werd.io" class="u-url icon-container">
-                <img class="u-photo" src="/IdnoPlugins/Werdio/images/ben.jpg">
+                <img class="u-photo" alt="Ben Werdmuller" src="/IdnoPlugins/Werdio/images/ben.jpg">
               </a>
             </p>
           </div>
@@ -24,7 +24,7 @@
             <a href="/profile/benwerd" rel="me" class="u-url p-name">Ben Werdmuller</a>
           </p>
           <p>
-            <a href="https://newsletter.werd.io" class="btn btn-primary" style="background-color: #4c93cb; color: #fff; font-size: 1.2em; font-weight: 400; padding: 5px 15px 5px 15px">Subscribe via email</a>
+            <a href="https://newsletter.werd.io" class="btn btn-primary" style="background-color: #fff; color: #000; font-size: 1.2em; font-weight: 400; padding: 5px 15px 5px 15px">Subscribe via email</a>
           </p>
           <div class="elsewhere">
             <p>

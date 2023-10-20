@@ -38,3 +38,19 @@
 		</div>
 	</div>
 </div>
+
+<?php
+
+$object = $vars['object'];
+/* @var \Idno\Common\Entity $object */
+
+if (!empty($object) && 1 == 2) { // Latter clause is to permanently cut Contextly out for now
+
+?>
+<script>
+    Contextly.ready('widgets');
+</script>
+
+<?php 
+
+}

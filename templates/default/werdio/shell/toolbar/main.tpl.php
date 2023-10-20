@@ -29,10 +29,10 @@
                     <a href="/content/posts">Posts</a>
                 </li>
                 <li>
-                    <a href="/content/statusupdates">Statuses</a>
+                    <a href="/content/bookmarkedpages">Links</a>
                 </li>
                 <li>
-                    <a href="/content/bookmarkedpages">Links</a>
+                    <a href="/tag/technology">Technology</a>
                 </li>
             </ul>
 
@@ -41,7 +41,10 @@
                     <a href="/pages/about">About</a>
                 </li>
                 <li>
-                    <a href="https://newsletter.werd.io" class="btn btn-primary" style="background-color: #4c93cb; color: #fff; font-weight: bold">Subscribe</a>
+                    <a href="/cv.pdf">CV</a>
+                </li>
+                <li>
+                    <a href="https://newsletter.werd.io" class="btn btn-primary" style="background-color: #0e62a4; color: #fff; font-weight: bold">Subscribe</a>
                 </li>
             </ul>
 

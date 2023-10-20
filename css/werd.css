@@ -1,3 +1,7 @@
+body {
+  font-display: swap;
+}
+
 .navbar {
   box-shadow: none;
 }
@@ -56,3 +60,44 @@
     max-width: 200px;
   }
 }
+
+.page-about p {
+  font-family: merriweather,serif;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 1.75em;
+  margin: 0 0 1.5em;
+}
+
+.idno-body .entry-content p {
+  margin: 0 0 20px 0;
+  font-size: 1em;
+}
+
+.idno-body .entry-content ol,
+.idno-body .entry-content ul,
+.idno-body .entry-content ol li,
+.idno-body .entry-content ul li {
+  margin: 0 0 20px 0;
+  font-size: 1em;
+}
+
+.idno-object a {
+  color: #0e62a4;
+  text-decoration: underline;
+}
+
+.idno-object h1 a,
+.idno-object h2 a {
+  text-decoration: none;
+}
+
+.idno-object a.p-category {
+  color: #333;
+  text-decoration: none;
+}
+
+.idno-object .idno-bookmark a {
+  text-decoration: underline;
+}
+
