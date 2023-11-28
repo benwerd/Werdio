@@ -4,25 +4,13 @@
 			<p>
 				<a href="mailto:ben@werd.io">Email</a>: ben@werd.io
 			</p>
-			<p>
-				Mastodon: <a href="https://werd.social/@ben" rel="me">@ben@werd.social</a>
-			</p>
-			<p>
-				<a href="/pages/feedback">Leave anonymous feedback</a>
-			</p>
 		</div>
 		<div class="col-md-2 " style="padding: 1.5em">
-			<p>
-				<a href="https://newsletter.werd.io">Subscribe by email</a>
-			</p>
 			<p>
 				<a href="/archive">Blog archive</a>
 			</p>
 			<p>
-				<a href="https://sources.werd.io/">Sources</a>
-			</p>
-			<p>
-				<a href="https://www.etsy.com/shop/WerdStore">WerdStore</a>
+				<a href="https://www.etsy.com/shop/WerdStore">Etsy store</a>
 			</p>
 		</div>
 		<div class="col-md-4 " style="padding: 1.5em; text-align: right">
