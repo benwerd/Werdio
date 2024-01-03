@@ -23,7 +23,12 @@ if (\Idno\Core\Idno::site()->currentPage()->isPermalink() && !empty($vars['objec
       <div class="row annotation-add">
           <div class="col-md-12 idno-comment-container" id="comment-form" >
             <div style="margin: auto; margin-bottom: 25px;">
-              <iframe src="https://werd.substack.com/embed" width="100%" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
+              <iframe
+scrolling="no"
+style="width:100%!important;height:220px;border:1px #ccc solid !important"
+src="https://newsletter.werd.io?as_embed=true"
+></iframe><br /><br />
             </div>
           </div>
       </div>
