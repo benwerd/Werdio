@@ -25,6 +25,11 @@ if (empty($vars['feed_view'])) {
 
 ?>
 <div class="e-content entry-content">
+<p>
+  <em>
+    I’m writing about the intersection of the internet, media, and society. <a href="https://newsletter.werd.io">Sign up to my newsletter</a> to receive every post and a weekly digest of the most important stories from around the web.
+  </em>
+</p>
 <?php
 
     echo $this->__(['value' => $vars['object']->body, 'object' => $vars['object'], 'rel' => $rel])->draw('forms/output/richtext') . $tags;

@@ -18,11 +18,10 @@ if (\Idno\Core\Idno::site()->currentPage()->isPermalink() && !empty($vars['objec
 */
 
 ?>
-      <script defer src="https://cdn.commento.io/js/commento.js"></script>
-      <div id="commento"></div>
       <div class="row annotation-add">
           <div class="col-md-12 idno-comment-container" id="comment-form" >
             <div style="margin: auto; margin-bottom: 25px;">
+              <p style="line-height: 1.75em; font-size: 1.1em; font-family: merriweather,serif; font-weight: 300;">I’m writing about the intersection of the internet, media, and society. <a href="https://newsletter.werd.io">Sign up to my newsletter</a> to receive every post and a weekly digest of the most important stories from around the web.</p>
 
               <iframe
 scrolling="no"
