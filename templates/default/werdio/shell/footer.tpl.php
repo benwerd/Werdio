@@ -31,10 +31,7 @@
 		</div>
 		<div class="col-md-2 " style="padding: 1.5em">
 			<p>
-				<a href="/archive">Blog archive</a>
-			</p>
-			<p>
-				<a href="https://www.etsy.com/shop/WerdStore">Etsy store</a>
+				<a href="/archive">Archive of longer posts</a>
 			</p>
 		</div>
 		<div class="col-md-4 " style="padding: 1.5em; text-align: right">
