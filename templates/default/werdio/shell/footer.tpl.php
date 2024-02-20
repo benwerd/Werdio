@@ -28,6 +28,9 @@
 			<p>
 				<a href="mailto:ben@werd.io">ben@werd.io</a>
 			</p>
+                        <p>
+                                <a href="https://signal.me/#eu/_ehMeopT5JeELrkt2lSk-R0V6d1AsGt_3Q98UOJhgBMTal5EGTdNIbZHB9H9CqBn">Contact me on Signal</a>
+                        </p>
 		</div>
 		<div class="col-md-2 " style="padding: 1.5em">
 			<p>
