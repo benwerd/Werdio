@@ -12,7 +12,7 @@
         if ($object_icon === $owner_icon) {
           $object_icon = \Idno\Core\Idno::site()->config()->getDisplayURL() . 'preview/' . $vars['object']->getID();
           $image_width = '1200';
-          $image_height = '600';
+          $image_height = '630';
         } else if ($icon_file = \Idno\Entities\File::getByURL($object_icon)) {
           if (!empty($icon_file->metadata['width'])) {
               $image_width = $icon_file->metadata['width'];

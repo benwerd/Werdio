@@ -12,7 +12,7 @@
 
       if (!$object) $this->noContent();
 
-      $image = imagecreate(1200, 600) or $this->noContent();
+      $image = imagecreate(1200, 630) or $this->noContent();
       $background_color = imagecolorallocate($image, 255,255,255);
       $bottom_bar = imagecolorallocate($image, 150,150,255);
       $text_color = imagecolorallocate($image, 0, 0, 0);
@@ -29,8 +29,8 @@
       $offset = 100;
       $font_size = 60;
 
-      imagefilledrectangle($image, 0, 0, 1200, 600, $background_color);
-      imagefilledrectangle($image, 0, 500, 1200, 600, $bottom_bar);
+      imagefilledrectangle($image, 0, 0, 1200, 630, $background_color);
+      imagefilledrectangle($image, 0, 500, 1200, 630, $bottom_bar);
       imagettftext($image, $font_size, 0, $offset, $offset + $font_size, $text_color, $font_bold, $text);
 
       $bbox = imagettfbbox($font_size, 0, $font_bold, $text);
