@@ -104,3 +104,12 @@ body {
 .idno-object .idno-body blockquote p {
   font-size: 0.85em;
 }
+
+.idno-asides .p-summary {
+  margin-top: 0;
+}
+
+.idno-asides h2.p-name {
+  font-size: 18px;
+}
+
