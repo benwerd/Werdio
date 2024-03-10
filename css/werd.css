@@ -107,6 +107,7 @@ body {
 
 .idno-asides .p-summary {
   margin-top: 0;
+  display: none;
 }
 
 .idno-asides h2.p-name {
