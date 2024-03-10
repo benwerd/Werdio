@@ -9,12 +9,11 @@
     if (!empty($vars['object'])) {
         $object_icon = $vars['object']->getIcon();
         $owner_icon = $vars['object']->getOwner()->getIcon();
+        if ($object_icon === $owner_icon) {
+          $object_icon = \Idno\Core\Idno::site()->config()->getDisplayURL() . 'preview/' . $vars['object']->getID();
+        }
     } else {
         $object_icon = false;
-    }
-
-    if (!$object_icon || $object_icon === $owner_icon) {
-      $object_icon = \Idno\Core\Idno::site()->config()->getDisplayURL() . 'preview/' . $vars['object']->getID();
     }
 
     $opengraph = array(
