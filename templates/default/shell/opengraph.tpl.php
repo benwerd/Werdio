@@ -11,7 +11,16 @@
         $owner_icon = $vars['object']->getOwner()->getIcon();
         if ($object_icon === $owner_icon) {
           $object_icon = \Idno\Core\Idno::site()->config()->getDisplayURL() . 'preview/' . $vars['object']->getID();
-        }
+          $image_width = '1200';
+          $image_height = '600';
+        } else if ($icon_file = \Idno\Entities\File::getByURL($object_icon)) {
+          if (!empty($icon_file->metadata['width'])) {
+              $image_width = $icon_file->metadata['width'];
+          }
+          if (!empty($icon_file->metadata['height'])) {
+              $image_height = $icon_file->metadata['height'];
+          }
+      }
     } else {
         $object_icon = false;
     }
@@ -39,15 +48,11 @@
             $opengraph['og:type']        = 'article'; //htmlspecialchars($vars['object']->getActivityStreamsObjectType());
             $opengraph['og:image']       = $object_icon; //$owner->getIcon(); //Icon, for now set to being the author profile pic
 
-            if ($icon = $vars['object']->getIcon()) {
-                if ($icon_file = \Idno\Entities\File::getByURL($icon)) {
-                    if (!empty($icon_file->metadata['width'])) {
-                        $opengraph['og:image:width'] = $icon_file->metadata['width'];
-                    }
-                    if (!empty($icon_file->metadata['height'])) {
-                        $opengraph['og:image:height'] = $icon_file->metadata['height'];
-                    }
-                }
+            if ($image_width) {
+              $opengraph['og:image:width'] = $image_width;
+            }
+            if ($image_height) {
+              $opengraph['og:image:height'] = $image_height;
             }
 
             if ($url = $vars['object']->getDisplayURL()) {
