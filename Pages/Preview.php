@@ -20,7 +20,9 @@
 
       $text = $object->getTitle();
       $text = wordwrap($text, 16, "\n");
-      $subtitle = wordwrap($object->getShortDescription(), 32, "\n");
+      $subtitle_unwrapped = $object->getShortDescription(10);
+      if ($subtitle_unwrapped !== $object->getShortDescription()) $subtitle_unwrapped .= ' ...';
+      $subtitle = wordwrap($subtitle_unwrapped, 32, "\n");
       $font = dirname(dirname(__FILE__)) . '/fonts/helvetica.ttf';
       $font_bold = dirname(dirname(__FILE__)) . '/fonts/helvetica_bold.ttf';
 
