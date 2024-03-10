@@ -3,10 +3,14 @@
     namespace IdnoPlugins\Werdio;
 
     use Idno\Common\Plugin;
+    use Idno\Core\Idno;
 
     class Main extends Plugin
     {
-        
+        function registerPages() 
+        {
+          Idno::site()->routes()->addRoute('/preview/:id/?', '\IdnoPlugins\Werdio\Pages\Preview');
+        }
 
         function registerContentTypes()
         {
