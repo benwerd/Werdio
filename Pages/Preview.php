@@ -30,14 +30,14 @@
       $font_size = 60;
 
       imagefilledrectangle($image, 0, 0, 1200, 630, $background_color);
-      imagefilledrectangle($image, 0, 500, 1200, 630, $bottom_bar);
+      imagefilledrectangle($image, 0, 470, 1200, 630, $bottom_bar);
       imagettftext($image, $font_size, 0, $offset, $offset + $font_size, $text_color, $font_bold, $text);
 
       $bbox = imagettfbbox($font_size, 0, $font_bold, $text);
       $lower_bounds = $bbox[1];
 
       imagettftext($image, $font_size / 2, 0, $offset, $lower_bounds + ($offset * 1.7) + $font_size, $subtitle_color, $font, $subtitle);
-      imagettftext($image, 40, 0, $offset, 530 + 40, $background_color, $font_bold, \Idno\Core\Idno::site()->config()->getTitle());
+      imagettftext($image, 40, 0, $offset, 500 + 40, $background_color, $font_bold, \Idno\Core\Idno::site()->config()->getTitle());
 
       $icon_image = imagecreatefromjpeg('https://werd.io/IdnoPlugins/Werdio/images/ben.jpg');
 
