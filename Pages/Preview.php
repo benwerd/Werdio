@@ -36,7 +36,7 @@
       $bbox = imagettfbbox($font_size, 0, $font_bold, $text);
       $lower_bounds = $bbox[1];
 
-      imagettftext($image, $font_size / 2, 0, $offset, $lower_bounds + ($offset * 1.7) + $font_size, $subtitle_color, $font, $subtitle);
+      //imagettftext($image, $font_size / 2, 0, $offset, $lower_bounds + ($offset * 1.7) + $font_size, $subtitle_color, $font, $subtitle);
       imagettftext($image, 40, 0, $offset, 530 + 40, $background_color, $font_bold, \Idno\Core\Idno::site()->config()->getTitle());
 
       $icon_image = imagecreatefromjpeg('https://werd.io/IdnoPlugins/Werdio/images/ben.jpg');
