@@ -63,6 +63,3 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Licensing -->
 <meta name="license" content="archive, search, republish:BY-NC-SA">
 
-<!-- Affiliates -->
-<script type="text/javascript" src="https://s.skimresources.com/js/226792X1708955.skimlinks.js"></script>
-
