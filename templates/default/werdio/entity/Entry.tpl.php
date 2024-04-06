@@ -21,7 +21,10 @@ if (\Idno\Core\Idno::site()->currentPage()->isPermalink() && !empty($vars['objec
       <div class="row annotation-add">
           <div class="col-md-12 idno-comment-container" id="comment-form" >
             <div style="margin: auto; margin-bottom: 25px;">
-              <p style="line-height: 1.75em; font-size: 1.1em; font-family: merriweather,serif; font-weight: 300;">I’m writing about the intersection of the internet, media, and society. <a href="https://newsletter.werd.io">Sign up to my newsletter</a> to receive every post and a weekly digest of the most important stories from around the web.</p>
+              <p style="line-height: 1.75em; font-size: 1.1em; font-family: merriweather,serif; font-weight: 300;">
+<a href="https://shareopenly.org/share/?url=<?php echo $entity->getDisplayURL(); ?>&text=<?php echo urlencode($entity->getTitle()); ?>">Share this post on social media.</a><br><br>
+
+I’m writing about the intersection of the internet, media, and society. <a href="https://newsletter.werd.io">Sign up to my newsletter</a> to receive every post and a weekly digest of the most important stories from around the web.</p>
 
               <iframe
 scrolling="no"

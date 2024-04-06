@@ -95,6 +95,8 @@ if (!empty($object)) {
 
                             ?>
                             <a href="<?php echo $url; ?>"><?php echo $title; ?></a>
+                            &centerdot;
+                            <a href="https://shareopenly.org/share/?url=<?php echo $url; ?>&text=<?php echo urlencode($object->getTitle()); ?>">Share to social</a>
                         </span>
                     </p>
                 </div>
