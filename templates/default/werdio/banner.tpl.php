@@ -6,7 +6,7 @@
 
     <div id="banner" class="h-card">
       <div id="banner-container">
-        <div>
+        <div class="namebadge-holder">
           <div class="namebadge">
             <p>
               <a href="https://werd.io" class="u-url icon-container">
@@ -17,18 +17,19 @@
         </div>
         <div>
           <h1>
-            <a href="/" rel="home"><strong>Werd</strong> I/O</a>
+            <a href="/" rel="home" class="u-url"><strong>Werd</strong> I/O</a>
           </h1>
           <p class="site-description p-profile">
             Writing at the intersection of technology, democracy, and society by 
             <a href="https://about.werd.io" rel="me" class="p-name">Ben Werdmuller</a>
           </p>
-          <p>
-            <a href="https://newsletter.werd.io" class="btn btn-primary" style="background-color: #fff; color: #000; font-size: 1.2em; font-weight: 400; padding: 5px 15px 5px 15px">Subscribe via email</a>
-          </p>
+          <!-- <p>
+            <a href="https://newsletter.werd.io" class="btn btn-primary" style="background-color: #fff; color: #000; font-size: 1.2em; font-weight: 400; padding: 5px 15px 5px 15px">Subscribe</a>
+          </p> -->
           <div class="elsewhere">
             <p>
-              Follow me elsewhere:
+              Follow:
+              <a href="https://newsletter.werd.io" rel="me" class="u-url">Newsletter</a>, 
               <a href="https://werd.social/@ben" rel="me" class="u-url">Mastodon</a>, 
               <a href="https://www.threads.net/@ben.werdmuller" rel="me" class="u-url">Threads</a>, 
               <a href="https://www.linkedin.com/in/benwerd" rel="me" class="u-url">LinkedIn</a>

@@ -6,6 +6,9 @@
   {
 
     function getContent() {
+
+      header('Location: https://werd.io/werdio-share.png'); exit;
+
       if (!empty($this->arguments[0])) {
         $object = \Idno\Common\Entity::getByID($this->arguments[0]);
       }

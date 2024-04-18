@@ -2,6 +2,22 @@
 	<div class="row" style=" margin-top: 50px; ">
 		<div class="col-md-2 col-md-offset-2" style="padding: 1.5em">
 			<p>
+				<a href="https://newsletter.werd.io">Newsletter</a>
+			</p>
+			<p>
+				<a href="mailto:ben@werd.io">ben@werd.io</a>
+			</p>
+                        <p>
+                                <a href="https://signal.me/#eu/_ehMeopT5JeELrkt2lSk-R0V6d1AsGt_3Q98UOJhgBMTal5EGTdNIbZHB9H9CqBn">Signal</a>
+                        </p>
+		</div>
+		<div class="col-md-2 " style="padding: 1.5em">
+			<p>
+<!--				<a href="/archive">Archive of longer posts</a> -->
+			</p>
+		</div>
+		<div class="col-md-4 " style="padding: 1.5em; text-align: right">
+             <p>
 				<a href="/feed">
 					<svg xmlns="http://www.w3.org/2000/svg"
      id="RSSicon"
@@ -21,31 +37,6 @@
 
 </svg>
 				</a>
-			</p>
-			<p>
-				<a href="https://newsletter.werd.io">Newsletter</a>
-			</p>
-			<p>
-				<a href="mailto:ben@werd.io">ben@werd.io</a>
-			</p>
-                        <p>
-                                <a href="https://signal.me/#eu/_ehMeopT5JeELrkt2lSk-R0V6d1AsGt_3Q98UOJhgBMTal5EGTdNIbZHB9H9CqBn">Contact me on Signal</a>
-                        </p>
-		</div>
-		<div class="col-md-2 " style="padding: 1.5em">
-			<p>
-				<a href="/archive">Archive of longer posts</a>
-			</p>
-		</div>
-		<div class="col-md-4 " style="padding: 1.5em; text-align: right">
-			<p>
-				<a href="https://getblogging.org">Get Blogging!</a>
-			</p>
-			<p>
-				<a href="https://blogroll.org">Discover more blogs on Blogroll</a>
-			</p>
-			<p>
-				<a href="https://xn--sr8hvo.ws/%F0%9F%8E%B7%F0%9F%88%82%EF%B8%8F%E2%86%AA%EF%B8%8F/previous">←</a> <a href="https://xn--sr8hvo.ws/directory">Discover more IndieWeb sites</a> <a href="https://xn--sr8hvo.ws/%F0%9F%8E%B7%F0%9F%88%82%EF%B8%8F%E2%86%AA%EF%B8%8F/next">→</a><br>
 			</p>
 		</div>
 	</div>

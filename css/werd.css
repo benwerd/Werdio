@@ -8,7 +8,7 @@ body {
 
 #banner {
   width: 100%;
-  background-color: #000;
+  background-color: #0e62a4;
   margin-top: -50px;
   padding: 25px;
   color: #fff;
@@ -40,9 +40,13 @@ body {
   font-size: 0.8em;
 }
 
+.namebadge-holder {
+  /*display: none;*/
+}
+
 @media screen and (min-width: 760px) {
   #banner-container {
-    max-width: 760px;
+    max-width: 720px;
     margin: auto;
     margin-top: 50px;
     display: grid;
