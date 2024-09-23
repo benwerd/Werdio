@@ -27,6 +27,16 @@
             <a href="https://newsletter.werd.io" class="btn btn-primary" style="background-color: #fff; color: #000; font-size: 1.2em; font-weight: 400; padding: 5px 15px 5px 15px">Subscribe</a>
           </p> -->
           <div class="elsewhere">
+        	<form action="https://buttondown.com/api/emails/embed-subscribe/benwerd" method="post">
+        	  <p>
+        	    <label style="display: inline">
+        	      Subscribe by email:<br>
+        	      <input type="email" name="email" placeholder="you@example.com" style="font-weight: 400; font-style: normal; min-width: 50%" />
+                  <input type="hidden" value="1" name="embed" class="btn" />
+                  <input type="submit" value="Subscribe" class="btn btn-primary" style="padding: 8px; padding-bottom: 10px; margin-bottom: 3px; border-radius: 0" />
+        	    </label>
+        	  </p>
+        	</form>
             <p>
               Follow:
               <a href="https://newsletter.werd.io" rel="me" class="u-url">Newsletter</a>, 
