@@ -101,10 +101,6 @@ body {
   text-decoration: none;
 }
 
-.idno-object .idno-bookmark a {
-  text-decoration: underline;
-}
-
 .idno-object .idno-body blockquote p {
   font-size: 0.85em;
 }
@@ -114,7 +110,11 @@ body {
   display: none;
 }
 
-.idno-asides h2.p-name {
-  font-size: 18px;
+.idno-bookmarkedpages h2,
+.idno-asides h2 {
+  font-size: 22px;
 }
 
+.reading {
+  display: none;
+}
