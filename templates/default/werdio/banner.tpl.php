@@ -23,9 +23,6 @@
             Writing at the intersection of technology, democracy, and society by 
             <a href="https://about.werd.io" rel="me" class="p-name">Ben Werdmuller</a>
           </p>
-          <!-- <p>
-            <a href="https://newsletter.werd.io" class="btn btn-primary" style="background-color: #fff; color: #000; font-size: 1.2em; font-weight: 400; padding: 5px 15px 5px 15px">Subscribe</a>
-          </p> -->
           <div class="elsewhere">
         	<form action="https://buttondown.com/api/emails/embed-subscribe/benwerd" method="post">
         	  <p>

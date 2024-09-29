@@ -35,13 +35,13 @@
                     <a href="/content/bookmarkedpages">Links</a>
                 </li>
                 <li>
-                    <a href="https://newsletter.werd.io" rel="me">Newsletter</a>
+                    <a href="/" rel="me">Newsletter</a>
                 </li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="https://newsletter.werd.io" class="btn btn-primary" style="background-color: #0e62a4; color: #fff; font-weight: bold">Subscribe</a>
+                    <a href="/" class="btn btn-primary" style="background-color: #0e62a4; color: #fff; font-weight: bold">Subscribe</a>
                 </li>
             </ul>
 
