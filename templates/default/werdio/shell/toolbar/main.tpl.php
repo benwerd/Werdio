@@ -1,3 +1,5 @@
+<!-- ConvertKit -->
+<script async data-uid="56920a9da9" src="https://artisanal-artisan-3527.ck.page/56920a9da9/index.js?2"></script>
 <a href="#maincontent" style="display:none"><?php echo \Idno\Core\Idno::site()->language()->_('Skip to main content'); ?></a>
 <nav class="navbar navbar-default navbar-fixed-top werdio-nav">
     <div class="container">
@@ -41,7 +43,7 @@
 
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="/" class="btn btn-primary" style="background-color: #0e62a4; color: #fff; font-weight: bold">Subscribe</a>
+                    <a data-formkit-toggle="56920a9da9" href="https://artisanal-artisan-3527.ck.page/56920a9da9" style="background-color: #0e62a4; color: #fff; font-weight: bold">Subscribe</a>
                 </li>
             </ul>
 

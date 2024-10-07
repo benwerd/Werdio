@@ -24,16 +24,9 @@
             <a href="https://about.werd.io" rel="me" class="p-name">Ben Werdmuller</a>
           </p>
           <div class="elsewhere">
-        	<form action="https://buttondown.com/api/emails/embed-subscribe/benwerd" method="post">
         	  <p>
-        	    <label style="display: inline">
-        	      Subscribe by email:<br>
-        	      <input type="email" name="email" placeholder="you@example.com" style="font-weight: 400; font-style: normal; min-width: 50%" />
-                  <input type="hidden" value="1" name="embed" class="btn" />
-                  <input type="submit" value="Subscribe" class="btn btn-primary" style="padding: 8px; padding-bottom: 10px; margin-bottom: 3px; border-radius: 0" />
-        	    </label>
+			<a data-formkit-toggle="56920a9da9" href="https://artisanal-artisan-3527.ck.page/56920a9da9" class="btn btn-primary" style="font-size: 1.3em">Subscribe by email</a>
         	  </p>
-        	</form>
             <p>
               Follow:
               <a href="https://newsletter.werd.io" rel="me" class="u-url">Newsletter</a>, 

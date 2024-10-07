@@ -96,7 +96,7 @@ if (!empty($object)) {
                             ?>
                             <a href="<?php echo $url; ?>"><?php echo $title; ?></a>
                             &centerdot;
-                            <a href="https://shareopenly.org/share/?url=<?php echo $url; ?>&text=<?php echo urlencode($object->getTitle()); ?>"><img src="https://shareopenly.org/images/logo.svg" style="height: 1.2em; margin-bottom: 3px"> Share to social</a>
+                            <a href="https://shareopenly.org/share/?url=<?php echo $url; ?>&text=<?php echo urlencode($object->getTitle()); ?>"><img src="https://shareopenly.org/images/logo.svg" alt="ShareOpenly" style="height: 1.2em; margin-bottom: 3px"> Share to social</a>
                         </span>
                     </p>
                 </div>

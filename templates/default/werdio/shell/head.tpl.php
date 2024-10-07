@@ -62,4 +62,3 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!-- Licensing -->
 <meta name="license" content="archive, search, republish:BY-NC-SA">
-
