@@ -43,7 +43,7 @@
 
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a data-formkit-toggle="56920a9da9" href="https://artisanal-artisan-3527.ck.page/56920a9da9" style="background-color: #0e62a4; color: #fff; font-weight: bold">Subscribe</a>
+                    <a data-formkit-toggle="56920a9da9" href="https://artisanal-artisan-3527.ck.page/56920a9da9" style="background-color: #4c93cb; color: #fff; font-weight: bold">Subscribe</a>
                 </li>
             </ul>
 
