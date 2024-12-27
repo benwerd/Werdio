@@ -37,7 +37,7 @@
                     <a href="/content/bookmarkedpages">Links</a>
                 </li>
                 <li>
-                    <a href="/" rel="me">Newsletter</a>
+                    <a href="https://newsletter.werd.io" rel="me">Newsletter</a>
                 </li>
             </ul>
 
